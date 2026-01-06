@@ -74,8 +74,8 @@ async def token_handler(client, message):
         image_url = "https://i.postimg.cc/tCJ0M27D/IMG-20250823-145001-279.jpg"
 
         # ✅ Buttons
-        join_button = InlineKeyboardButton("📢 Join Channel", url="https://t.me/+qJAVtwUhJ-c5YTI1")
-        premium = InlineKeyboardButton("💎 Get Premium", url="https://t.me/DarkEnd_Z")
+        join_button = InlineKeyboardButton("📢 Join Channel", url="https://t.me/+Z431Okgd2mcxZTM1")
+        premium = InlineKeyboardButton("💎 Get Premium", url="https://t.me/V453176")
         help_button = InlineKeyboardButton("❓ Help", callback_data="help")
 
         keyboard = InlineKeyboardMarkup([
