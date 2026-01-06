@@ -168,7 +168,7 @@ async def terms(client, message):
     buttons = InlineKeyboardMarkup(
         [
             [InlineKeyboardButton("📋 See Plans", callback_data="see_upgrade")],
-            [InlineKeyboardButton("💬 Contact Now", url="https://t.me/DarkEnd_Z")],
+            [InlineKeyboardButton("💬 Contact Now", url="https://t.me/V453176")],
         ]
     )
     await message.reply_text(terms_text, reply_markup=buttons)
@@ -220,7 +220,7 @@ async def upgrade(client, message):
 
     buttons = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("👤 Contact Admin", url="https://t.me/DarkEnd_Z")]
+            [InlineKeyboardButton("👤 Contact Admin", url="https://t.me/V453176")]
         ]
     )
 
